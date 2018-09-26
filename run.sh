@@ -4,6 +4,6 @@ set -x
 
 bash neverever.sh &
 pid="$!"
-perl -n -i -e 'print unless m/XXXXXXXXX/' neverever.sh
+bash replace.sh
 
 wait "$pid"
