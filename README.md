@@ -15,8 +15,8 @@ XXXXXXXXX
 122
 107
 + wait 74458
-+ echo THIS SHOULD NEVER RUN
-THIS SHOULD NEVER RUN
++ echo THIS SHOULD NEVER BE PRINTED
+THIS SHOULD NEVER BE PRINTED
 neverever.sh: line 6: syntax error near unexpected token `else'
 neverever.sh: line 6: `else'
 ```
