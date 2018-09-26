@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -x
 echo XXXXXXXXX
-sleep 10
+sleep 3
 if false; then
     echo THIS SHOULD NEVER RUN
 else
